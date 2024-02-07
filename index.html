@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Formulario</h1>
 
     <img src="./img/user-profile.jpg" width="400px" height="400px" alt="Icono de Usuario" srcset="">
     <form name="inicio-sesion">
-        <label for="username">Username</label>
-        <input type="text" id="username">
+        <label for="username" id="username">Username</label>
+        <input type="text" class="username" id="username" placeholder="username">
         <br>
-        <label for="password">Password</label>
-        <input type="password" id="password">
+        <label for="password" id="password">Password</label>
+        <input type="password" class="password" id="password" placeholder="password">
         <br>
-        <input type="submit" value="Login">
+        <input type="submit" value="Login" id="submit">
         <br>
         <input type="checkbox" name="remember-me"><label for="remember-me">Remember me</label>
         <br>
         <div>
             <button>Cancel</button>
-            <br>
             <label>Forgot <a href="#">Password</a>?</label>
         </div>
     </form>

@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #e4c3bd;
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 10px;
+    
+}
+
+img {
+    border-radius: 100%;
+}
+
+#submit {
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    background-color: #77463d;
+    border: 0;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: #f0dcd8;
+    color: black;
+    border: 1;
+}
+
+#username, #password {
+    margin: 10px;
+    height: 35px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.username, .password {
+    background-color: #aa6558;
+    border: 0;
+}
+
+input::placeholder {
+    opacity: 0.2;
+    color: black;
+}
+
+button {
+    background-color: red;
+    border: 0;
+    color: white;
+}
+
+div {
+    margin: 15px;
+}
