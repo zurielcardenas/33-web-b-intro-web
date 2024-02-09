@@ -43,6 +43,9 @@ img {
     background-color: #aa6558;
     border: 0;
     text-align: center;
+    position: relative;
+    right: 60px;
+    border-radius: 5px;
 }
 
 input::placeholder {
@@ -60,6 +63,15 @@ div {
     margin: 15px;
 }
 
-label {
-    visibility:;
+label#username {
+    visibility: hidden;
 }
+
+label#password {
+    visibility: hidden;
+}
+
+#forgot {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

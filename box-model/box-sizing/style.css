@@ -1,0 +1,16 @@
+.content-box {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: content-box;
+}
+
+.border-box {
+    width: 243px;
+    height: 143px;
+    padding: 20px;
+    border: 2px solid brown;
+    box-sizing: border-box;
+}
+
