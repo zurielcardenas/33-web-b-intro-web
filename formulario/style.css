@@ -42,6 +42,7 @@ img {
 .username, .password {
     background-color: #aa6558;
     border: 0;
+    text-align: center;
 }
 
 input::placeholder {
@@ -57,4 +58,8 @@ button {
 
 div {
     margin: 15px;
+}
+
+label {
+    visibility:;
 }
